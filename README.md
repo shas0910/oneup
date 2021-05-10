@@ -38,3 +38,16 @@
 ### Association
 
 - belongs_to :contents
+
+
+
+## commentsテーブル
+
+| Column | Type | Options     |
+| ------ | ---- | ----------- | 
+| text   | text | null: false |
+
+### Association
+
+- belongs_to :content
+- belongs_to :user
