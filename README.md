@@ -4,8 +4,8 @@
 | ------------------ | ------ | ------------------------- |
 | email              | string | null: false, unique: true |
 | encrypted-password | string | null: false               |
-| user-name          | string | null: false               |
-| user-desc          | text   | null: false               |
+| user_name          | string | null: false               |
+| user_desc          | text   | null: false               |
 
 ### Association
 
